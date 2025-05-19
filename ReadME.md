@@ -1,6 +1,6 @@
 **BabyNest REST API**
 
-**Task 1: Order Documentation & Reporting**
+**Order Documentation & Reporting**
 Retrieve detailed order summaries and generate PDF invoices in multiple formats, JSON, XML, YAML, TSV, for a given order. 
 
 ## Order Retrieval API Endpoints
@@ -16,7 +16,7 @@ This is Role-based controlled for ADMIN Access.
 
 ---
 
-**Task 2: Order Management**
+**Order Management**
 Allow authenticated clients to place and edit orders.
 - A new order is inserted into the orders table with customer details, total amount, shipping address and an estimated delivery date.
 - Purchased items are added to the order_items table with product details, quantity and price.
@@ -34,7 +34,6 @@ This is Role-based controlled for authenticated users, CUSTOMER and or ADMIN.
 
 ---
 
-**Task 3: Unique Feature**
 **Wishlist Management**
 Authenticated users are able to manage their wishlist items. In addition to standard CRUD Operations, the system automatically sends an email notification each time an item is added to the wishlist. This email not only informs the user of the update but also includes a clickable link and a QR code. The QR code contains a tokenized URL that, when scanned, takes the user to a public view of their wishlist in a  styled HTML page.
   
@@ -59,7 +58,6 @@ This is Role-based controlled for authenticated users, CUSTOMER and or ADMIN.
 
 ---
 
-**Task 4: Surprise Feature**
 **Customer Details**
 
   - Returns in JSON
